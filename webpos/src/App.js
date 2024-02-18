@@ -11,7 +11,7 @@ const App = () => {
         <h1>WebPos Gift Card App</h1>
     
         <Link to='/'>Home</Link>
-        <br> <Link to='/catalogue'>Catalogue</Link> </br>
+        <Link to='/catalogue'>Catalogue</Link> 
          <Link to='/ordering'>Order</Link>
          <Routes>
          <Route path='/' element={<LoginPage/>} />
